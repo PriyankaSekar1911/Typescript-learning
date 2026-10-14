@@ -41,4 +41,10 @@ console.log(getElement("Prynk",5,20,"DK")) */
 console.log (ID("Prynk", 25))
 console.log (ID("Rev", 23,"rev@123")) */
 //Default parameters
-function 
+function RealDiscount(MRP:number, Rate=.5):number
+{
+  let Final:number= MRP*Rate;
+  return Final
+}
+console.log(RealDiscount(1000))
+console.log(RealDiscount(1000,.3))
