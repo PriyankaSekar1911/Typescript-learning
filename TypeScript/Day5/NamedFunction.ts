@@ -30,7 +30,7 @@ console.log(Addnum(10,30,50,34,56)) */
 console.log(getElement(1,5,8))
 console.log(getElement("Prynk",5,20,"DK")) */
 //Optional parameters
-function ID(name:string, age:number, mail?:string):void{
+/* function ID(name:string, age:number, mail?:string):void{
   console.log("Name is ",name);
   console.log("Age is ",age);
   if(mail !==undefined)
@@ -39,5 +39,6 @@ function ID(name:string, age:number, mail?:string):void{
   
 }
 console.log (ID("Prynk", 25))
-console.log (ID("Rev", 23,"rev@123"))
+console.log (ID("Rev", 23,"rev@123")) */
 //Default parameters
+function 
