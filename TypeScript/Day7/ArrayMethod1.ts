@@ -58,3 +58,33 @@ console.log(IsAppleExist)
 
 let StringArray:string=Fruits.toString()
 console.log(StringArray)
+/*
+OUTPUT:
+
+Array Number is  [ 1, 2, 3, 4, 5, 6 ]         
+Array Fruits is  [ 'Apple', 'Banana', 'Cucumber', 'PineApple' ]
+Length of Number array is  6
+Length of Number array is  6
+After push:  [ 'Apple', 'Banana', 'Cucumber', 'PineApple', 'papaya' ]
+After pop:  [ 'Apple', 'Banana', 'Cucumber', 'PineApple' ]
+After Shift:  [ 'Banana', 'Cucumber', 'PineApple' ]
+After Unshift:  [ 'Orange', 'Guava', 'Banana', 'Cucumber', 'PineApple' ]
+After Concat :  [
+  'Orange',
+  'Guava',
+  'Banana',
+  'Cucumber',
+  'PineApple',
+  'Pear',
+  'Mosambi',
+  'Watermelon'
+]
+Sliced Element :  [ 'Guava', 'Banana', 'Cucumber', 'PineApple' ]
+After Slice:  [ 'Orange', 'Guava', 'Banana', 'Cucumber', 'PineApple' ]
+Value Removed after splice:  [ 'Guava', 'Banana', 'Cucumber' ]
+Array value Removed after splice:  [ 'Orange', 'PineApple' ]
+Array Value Added after splice:  [ 'Orange', 'PineApple', 'Mango' ]
+Array added and removed value Removed after splice:  [ 'Stawberry', 'Grape', 'Kiwi', 'Mango' ]
+2
+false
+Stawberry,Grape,Kiwi,Mango */
