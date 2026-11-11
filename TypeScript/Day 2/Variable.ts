@@ -1,4 +1,4 @@
-/* /* let, const., var are the variables
+/* let, const., var are the variables
  1. Scope
  2. Declaration/value assigning
  3. redeclaration
@@ -16,7 +16,7 @@
   console.log(x);
  }
 test()// 20 */
-
+/* 
 // Block scope
  function test(){
   if (true){
